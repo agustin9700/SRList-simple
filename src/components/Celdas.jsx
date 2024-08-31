@@ -23,7 +23,7 @@ function Celda() {
   useEffect(() => {
     const fetchData2 = async () => {
       try {
-        const res = await axios.get("http://localhost:3000/users");
+        const res = await axios.get("https://4fdw2tkd-3000.brs.devtunnels.ms/users");
         setData2(res.data);
       } catch (err) {
         console.log(err);
