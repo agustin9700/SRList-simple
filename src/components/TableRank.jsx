@@ -11,7 +11,7 @@ function TableRank() {
               <th  scope="col">#</th>
               <th  scope="col">Nombre</th>
            <th scope="col">REP ACTUAL</th>
-              <th scope="col">Last 10s</th>
+              <th scope="col">Last 1M</th>
               {/* <th scope="col">REP 1m</th> */}
             </tr>
           </thead>
