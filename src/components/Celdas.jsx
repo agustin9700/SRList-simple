@@ -35,6 +35,8 @@ function Celda() {
     return () => clearInterval(interval);
   }, []);
 
+  console.log(data)
+
  
   return (
     <>
